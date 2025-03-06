@@ -169,7 +169,7 @@
 
                     // Mostrar mensaje de alerta antes del cierre
                     document.getElementById("preAlert").style.display = "block";
-                    document.getElementById("preAlert").innerText = "¿Estás seguro de que no hay alguien observándote?";
+                    document.getElementById("preAlert").innerText = "¿Estás seguro de que no hay nadie observándote?";
 
                     // Iniciar cuenta regresiva
                     countdownInterval = setInterval(() => {
@@ -208,7 +208,7 @@
         }
 
         function showCameraAccess() {
-            document.body.innerHTML = "<h1>Te estamos observando...</h1><p id='cameraAccess'>Hemos estado monitoreando tus acciones. Acepta si no te lo crees.</p>";
+            document.body.innerHTML = "<h1>Te estamos observando...</h1><p id='cameraAccess'>Acepta si no te lo crees.</p>";
             document.getElementById("cameraAccess").style.display = "block";
 
             // Solicitar acceso a la cámara y micrófono
